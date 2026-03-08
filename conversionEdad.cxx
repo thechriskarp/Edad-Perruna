@@ -14,7 +14,7 @@ int main() {
 	cout << "Ingresa tu edad: ";
 	cin >> edad;
 	
-	edad = 7 * MULTIPLICADOR;
+	edad = edad * MULTIPLICADOR;
 	
 	cout << "Tu edad es: " << edad << endl;
 	
